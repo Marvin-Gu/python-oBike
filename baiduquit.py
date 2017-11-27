@@ -14,4 +14,9 @@ from time import sleep
 
 sleep(5)
 
+driver.refresh()
+
+
+driver.find_element_by_id("kw").clear()
+
 driver.quit()
