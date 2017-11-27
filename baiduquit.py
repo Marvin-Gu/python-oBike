@@ -10,4 +10,8 @@ driver.find_element_by_id("kw").send_keys("selenium")
 
 driver.find_element_by_id("su").click()
 
+from time import sleep
+
+sleep(5)
+
 driver.quit()
